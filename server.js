@@ -24,7 +24,7 @@ app.use('/people', personRouter);
 //Graphql
 app.use('/graphql', expressGraphQL({
   schema: schema,
-  graphiql: true
+  graphiql: process.env.NODE_ENV === 'development'? true : false
 }));
 
 app.listen(SERVER_PORT, () => {

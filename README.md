@@ -23,11 +23,11 @@ Feel free to improve and apply an better approach.
 
 3 - Turn up the MongoDB server:
 
-> mongod
+$> mongod
 
 4 - In another terminal window, connect on MongoDB:
 
-> mongo
+$> mongo
 
 5 - After step 4, create a database named by 'graphql' and create-populate a simple collection for this test:
 
